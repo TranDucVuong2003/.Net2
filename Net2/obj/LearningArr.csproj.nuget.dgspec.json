@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\Net2\\LearningArr.csproj": {}
+    "C:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\Net2\\LearningArr.csproj": {}
   },
   "projects": {
-    "c:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\Net2\\LearningArr.csproj": {
+    "C:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\Net2\\LearningArr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\Net2\\LearningArr.csproj",
+        "projectUniqueName": "C:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\Net2\\LearningArr.csproj",
         "projectName": "LearningArr",
-        "projectPath": "c:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\Net2\\LearningArr.csproj",
+        "projectPath": "C:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\Net2\\LearningArr.csproj",
         "packagesPath": "C:\\Users\\trand\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\Net2\\obj\\",
+        "outputPath": "C:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\Net2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\trand\\AppData\\Roaming\\NuGet\\NuGet.Config",
