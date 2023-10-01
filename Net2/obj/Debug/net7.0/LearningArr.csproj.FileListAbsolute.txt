@@ -12,3 +12,17 @@ C:\Users\trand\OneDrive\Desktop\Dart-LapTrinhMobie\dotnet\LearningArr\obj\Debug\
 C:\Users\trand\OneDrive\Desktop\Dart-LapTrinhMobie\dotnet\LearningArr\obj\Debug\net7.0\LearningArr.pdb
 C:\Users\trand\OneDrive\Desktop\Dart-LapTrinhMobie\dotnet\LearningArr\obj\Debug\net7.0\LearningArr.genruntimeconfig.cache
 C:\Users\trand\OneDrive\Desktop\Dart-LapTrinhMobie\dotnet\LearningArr\obj\Debug\net7.0\ref\LearningArr.dll
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\bin\Debug\net7.0\LearningArr.exe
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\bin\Debug\net7.0\LearningArr.deps.json
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\bin\Debug\net7.0\LearningArr.runtimeconfig.json
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\bin\Debug\net7.0\LearningArr.dll
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\bin\Debug\net7.0\LearningArr.pdb
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\obj\Debug\net7.0\LearningArr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\obj\Debug\net7.0\LearningArr.AssemblyInfoInputs.cache
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\obj\Debug\net7.0\LearningArr.AssemblyInfo.cs
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\obj\Debug\net7.0\LearningArr.csproj.CoreCompileInputs.cache
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\obj\Debug\net7.0\LearningArr.dll
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\obj\Debug\net7.0\refint\LearningArr.dll
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\obj\Debug\net7.0\LearningArr.pdb
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\obj\Debug\net7.0\LearningArr.genruntimeconfig.cache
+C:\Users\trand\OneDrive\Desktop\.Net2\dotnet\Net2\obj\Debug\net7.0\ref\LearningArr.dll
