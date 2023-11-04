@@ -7,8 +7,14 @@ namespace MVC.NET2.Models
     public class Student
     {
         [Key]
-        public string StudentID { get; set; }
-        public string FullName { get; set; }
-        public string Address { get; set; }
+        public required string StudentID { get; set; }
+        public required string FullName { get; set; }
+        public required string Address { get; set; }
+        public required string Age { get; set; }
+        [DataType(DataType.EmailAddress)]
+        public required string Email { get; set; }
+        [DataType(DataType.Date)]
+        public required string Birthday { get; set; }
+        public required string IActive { get; set; }
     }
 }

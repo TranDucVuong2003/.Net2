@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a/FyAOeUhb0jGZCFusH+4m/qpl2wLG5zhYQ2F2PCfxs=",
+  "Hash": "uZnnhs3aPfr1bKbmr5fdHm50ktTRbdJqtS9eMsM0CKo=",
   "Source": "MVC.Net2",
   "BasePath": "_content/MVC.Net2",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\MVC.Net2\\wwwroot\\css\\w3.css",
+      "SourceId": "MVC.Net2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\MVC.Net2\\wwwroot\\",
+      "BasePath": "_content/MVC.Net2",
+      "RelativePath": "css/w3.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\w3.css"
     },
     {
       "Identity": "C:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\MVC.Net2\\wwwroot\\favicon.ico",

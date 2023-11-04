@@ -7,8 +7,8 @@ namespace MVC.NET2.Models
     public class Person
     {
         [Key]
-        public string PersonID { get; set; }
-        public string FullName { get; set; }
-        public string Address { get; set; }
+        public required string PersonID { get; set; }
+        public required string FullName { get; set; }
+        public required string Address { get; set; }
     }
 }

@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\MVC.Net2\\wwwroot\\css\\w3.css",
+      "PackagePath": "staticwebassets\\css\\w3.css"
+    },
+    {
       "Id": "C:\\Users\\trand\\OneDrive\\Desktop\\.Net2\\dotnet\\MVC.Net2\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

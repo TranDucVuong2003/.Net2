@@ -43,7 +43,23 @@ namespace MVC.Net2.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Age")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Birthday")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IActive")
                         .IsRequired()
                         .HasColumnType("TEXT");
 

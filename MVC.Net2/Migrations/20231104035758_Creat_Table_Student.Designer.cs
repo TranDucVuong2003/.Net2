@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MVC.Net2.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231028032742_Create_table_Student")]
-    partial class Create_table_Student
+    [Migration("20231104035758_Creat_Table_Student")]
+    partial class Creat_Table_Student
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,7 +46,23 @@ namespace MVC.Net2.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Age")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Birthday")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IActive")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
