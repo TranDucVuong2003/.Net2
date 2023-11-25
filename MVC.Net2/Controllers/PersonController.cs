@@ -3,19 +3,37 @@ using Microsoft.EntityFrameworkCore;
 using MVC.Net2.Data;
 using MVC.NET2.Models;
 using MVC.Net2.Models.Process;
+using X.PagedList;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Data.Sqlite;
 namespace MVC.Net2.Controllers
+
 {
     public class PersonController : Controller
     {
         private readonly ApplicationDbContext _context;
         private ExcelProcess _excelProcess = new ExcelProcess();
+
+        public int? Pagesize { get; private set; }
+
         public PersonController(ApplicationDbContext context)
         {
             _context = context;
         }
-        public async Task<IActionResult> Index()
+      public async Task<IActionResult> Index(int? page, int? PageSize)
         {
-            var model = await _context.Person.ToListAsync();
+            ViewBag.PageSize = new List<SelectListItem>()
+            {
+                new SelectListItem(){Value="3", Text="3"},
+                new SelectListItem(){Value="5", Text="5"},
+                new SelectListItem(){Value="10", Text="10"},
+                new SelectListItem(){Value="15", Text="15"},
+                new SelectListItem(){Value="25", Text="25"},
+                new SelectListItem(){Value="50", Text="50"},
+            };
+            int pageSize = (PageSize ?? 3);
+            ViewBag.pSize = pageSize;
+            var model = _context.Person.ToList().ToPagedList(page ?? 1, pageSize);
             return View(model);
         }
         public IActionResult Create()
@@ -24,15 +42,33 @@ namespace MVC.Net2.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PersonID,FullName,Address")] Person person)
+        public async Task<IActionResult> Create([Bind("PersonID, FullName, Address")] Person ps)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(person);
-                await _context.SaveChangesAsync();
+                try
+                {
+                    _context.Add(ps);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateException)
+                {
+                    if (PersonExists(ps.PersonID))
+                    {
+                        return RedirectToAction(nameof(Index));
+                    }
+                }
+                catch (SqliteException)
+                {
+                    if (PersonExists(ps.PersonID))
+                    {
+                        return RedirectToAction(nameof(Index));
+                    }
+                }
                 return RedirectToAction(nameof(Index));
             }
-            return View(person);
+            return View(ps);
+
         }
         public async Task<IActionResult> Edit(string id)
         {
